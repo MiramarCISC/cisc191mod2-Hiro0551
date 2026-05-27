@@ -2,11 +2,11 @@ package edu.sdccd.cisc191;
 
 public class Student {
 
-    private double id;
+    private int id;
     private String name;
     private double gpa;
 
-    public Student(String name,double gpa , double id) {
+    public Student(String name,double gpa , int id) {
 
         if (id <= 0) {
             throw new IllegalArgumentException("ID must be positive");

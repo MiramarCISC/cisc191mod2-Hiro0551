@@ -5,7 +5,9 @@ import java.util.Comparator;
 import java.util.List;
 
 public class StudentAnalyzer {
-
+        private StudentAnalyzer(){
+            
+        }
     public static List<Student> filter(List<Student> students, StudentFilter filter) {
 
         List<Student> results = new ArrayList<>();
